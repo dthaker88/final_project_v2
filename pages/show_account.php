@@ -18,16 +18,12 @@
 <body>
 
 <?php
-//this is how you print something
+//this is how you print something  $data contains the record that was selected on the table.
 
-echo '<h1>' . $data['site_name']  . '</h1>';
-echo '<h2>' . $data['page_name']  . '</h2>';
+print_r($data);
 
 
 ?>
-
-
-
 
 
 <script src="js/scripts.js"></script>
